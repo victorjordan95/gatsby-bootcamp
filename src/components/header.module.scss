@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 1rem 0 3rem;
+}
+
+.link {
+  color: #999999;
+  text-decoration: none;
+
+  &:hover {
+    color: #424242;
+    text-decoration: underline;
+  }
+}
+
+.active-nav-item {
+  color: #333333;
+}
